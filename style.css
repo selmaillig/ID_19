@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Rosario&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+    --bg-color: #FAFAFA;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+/* Set view width to 1200px, more margin if screen is larger*/
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Rosario;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+h2 {
+    font-family: Rosario;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+
+    padding: 1rem;
+}
+
+h3 {
+    font-family: Rosario;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: Lato;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: var(--text-color);
+}
+
+input[type=text] {
+    background: #F2F2F2;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    border:none;
+
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+input[type=message] {
+    background: #F2F2F2;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    border:none;
+
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.nav {
+
+}
+
+.card {
+    background: #F2F2F2;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+
+    padding: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 10rem;
+}
+
+.cta {
+    background: #F6E972;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+}
+
+.accordion {
+    background-color:rgba(244, 162, 97, 0.25);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.panel {
+    background-color:rgba(244, 162, 97, 0.25);
+    display: none;
+    overflow: hidden;
+}
+
+.people {
+    text-align: center;
+}
+
+#hero {
+    margin-bottom: 10rem;
+}
+#hero p {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#logo {
+    width: 10rem;
+}
+
+#basic {
+    margin-bottom: 10rem;
+}
+
+#basic p {
+    padding: 1rem;
+}
+
+#blog {
+    margin-bottom: 10rem;
+}
+
+#product {
+    background-color: rgba(42, 157, 143, 0.2);
+    padding: 4rem;
+    margin-bottom: 10rem;
+}
+
+#product h2 {
+    text-align: center;
+    color: #2A9D8F
+}
+
+#product img {
+    display: flex;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+#newsletter {
+    text-align: center;
+    background-color: rgba(42, 157, 143, 0.2);
+    padding: 4rem;
+    margin-bottom: 10rem;
+}
+
+#about {
+    margin-bottom: 10rem;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#faq {
+    background: rgba(244, 162, 97, 0.25);
+    padding: 4rem;
+    margin-bottom: 10rem;
+}
+
+#faq h2 {
+    text-align: center;
+    padding: 0;
+}
+
+#faq h3 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#contact {
+    margin-bottom: 10rem;
+}
+
+#footer {
+    background: rgba(42, 157, 143, 0.6);
+    padding: 4rem 4rem 1rem 4rem;
+}
+
+#c {
+    padding-top: 1rem;
+    text-align: center;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+}
+
+.grid-3 {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 600px) {
+    .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
