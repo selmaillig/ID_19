@@ -165,21 +165,23 @@ input[type=message] {
     width: 100%;
 }
 
-.bg-basic {
-    background: url(assets/background/background_basic.svg) no-repeat;
-    width: 100%;
-}
-
 .bg-hero {
     background: url(assets/background/background_hero.svg) no-repeat;
     background-position: right;
+    background-size: contain;
     width: 100%;
 }
 
+.bg-basic {
+    background: url(assets/background/background_basic.svg) no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+
+
 .bg-reasons {
     background: url(assets/background/background_reasons.svg) no-repeat;
-    background-position: left;
-    width: 100%;
+    background-position: center;
 }
 
 .bg-about {
