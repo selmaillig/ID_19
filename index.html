@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script>
+            function myFunction() {
+              const menu = document.getElementById("mobile-nav");
+              if (menu.style.display === "block") {
+                menu.style.display = "none";
+              } else {
+                menu.style.display = "block";
+              }
+            }
+          </script>
+              <meta charset="UTF-8" />
 
         <link rel="stylesheet" href="style.css">
         <title>
@@ -8,24 +19,48 @@
         </title>
     </head>
     <body>
-        <div class="background-grey shadow sticky">
-            <div class="nav grid-3">
-                <div id="nav1">
-                    <a href="index.html">Logo Block</a>
+        <header>
+            <div class="background-grey shadow sticky">
+                <div class="nav grid-3 non-mobile-header">
+                    <div id="nav1">
+                        <a href="index.html">Logo Block</a>
+                    </div>
+                    <div id="nav2">
+                        <a href="#basic">Why?</a>
+                        <a href="#features">Features</a>
+                        <a href="#about">About</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="index.html">Blog</a>
+                    </div>
+                    <div id="nav3">
+                        <a href="index.html">Login</a>
+                        <a class="cta" href="index.html">Signup</a>
+                    </div>
                 </div>
-                <div id="nav2">
-                    <a href="#basic">Why?</a>
-                    <a href="#features">Features</a>
-                    <a href="#about">About</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="index.html">Blog</a>
-                </div>
-                <div id="nav3">
-                    <a href="index.html">Login</a>
-                    <a class="cta" href="index.html">Signup</a>
-                </div>
+                <div class="nav mobile-header">
+                    <a class="logo" href="index.html">Logo Block</a>
+                    <div id="mobile-nav">
+                      <nav class="main-nav">
+                        <ul id="nav2">
+                            <a href="#basic"><li>Why?</li></a>
+                            <a href="#features"><li>Features</li></a>
+                            <a href="#about"><li>About</li></a>
+                            <a href="#faq"><li>FAQ</li></a>
+                            <a href="index.html"><li>Blog</li></a>
+                            <a href="index.html"><li>Login</li></a>
+                            <a class="cta" href="index.html"><li>Signup</li></a>
+                        </ul>
+                      </nav>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <div class="ham1"></div>
+                      <div class="ham2"></div>
+                      <div class="ham3"></div>
+                    </a>
+                  </div>
             </div>
-        </div>
+        </header>
+
 
 <!-- Hero Image plus text and Logos-->
 
@@ -163,9 +198,9 @@
 <!-- FAQ Section-->
         <div class="background-orange">
             <div id="faq">
-                <h2>Our FAQs</h2>
-                <h3>Frequently Asked Questions</h3>
-                <div>
+                <div class="faq-non-mobile">
+                    <h2>Our FAQs</h2>
+                    <h3>Frequently Asked Questions</h3>
                     <button class="accordion">1. This is one question, might be a long one</button>
                     <div class="panel">
                         <p>Society ultimate truth value marvelous convictions morality hope grandeur selfish decieve selfish. Enlightenment intentions depths pious noble decrepit insofar will prejudice christian sexuality. Disgust will deceptions zarathustra victorious convictions snare prejudice ultimate. Decrepit noble passion society reason merciful marvelous abstract.
@@ -187,6 +222,32 @@
                         </p>
                     </div>
                 </div>
+
+                <div class="faq-mobile">
+                    <h2>Our FAQs</h2>
+                    <h3>Frequently Asked Questions</h3>
+                    <button class="accordion">1. This is one question, might be a long one</button>
+                    <div class="panel">
+                        <p>Society ultimate truth value marvelous convictions morality hope grandeur selfish decieve selfish. Enlightenment intentions depths pious noble decrepit insofar will prejudice christian sexuality. Disgust will deceptions zarathustra victorious convictions snare prejudice ultimate. Decrepit noble passion society reason merciful marvelous abstract.
+                        </p>
+                    </div>
+                    <button class="accordion">2. This is another questions, also a long one?</button>
+                    <div class="panel">
+                        <p>Society ultimate truth value marvelous convictions morality hope grandeur selfish decieve selfish. Enlightenment intentions depths pious noble decrepit insofar will prejudice christian sexuality. Disgust will deceptions zarathustra victorious convictions snare prejudice ultimate. Decrepit noble passion society reason merciful marvelous abstract.
+                        </p>
+                    </div>
+                    <button class="accordion">3. Even more questions?</button>
+                    <div class="panel">
+                        <p>Society ultimate truth value marvelous convictions morality hope grandeur selfish decieve selfish. Enlightenment intentions depths pious noble decrepit insofar will prejudice christian sexuality. Disgust will deceptions zarathustra victorious convictions snare prejudice ultimate. Decrepit noble passion society reason merciful marvelous abstract.
+                        </p>
+                    </div>
+                    <button class="accordion">4. What a product, so many questions?</button>
+                    <div class="panel">
+                        <p>Society ultimate truth value marvelous convictions morality hope grandeur selfish decieve selfish. Enlightenment intentions depths pious noble decrepit insofar will prejudice christian sexuality. Disgust will deceptions zarathustra victorious convictions snare prejudice ultimate. Decrepit noble passion society reason merciful marvelous abstract.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -211,26 +272,29 @@
 <!-- footer -->
 
 <!-- Still to do-->
-        <div class="background-green">
-            <div id=footer>
-                <div class=grid-3>
-                    <div>
-                        <p>Something</p>
+        <footer>
+            <div class="background-green">
+                <div id=footer>
+                    <div class=grid-3>
+                        <div>
+                            <p>Something</p>
+                        </div>
+                        <div>
+                            <p> Icons</p>
+                        </div>
+                        <div>
+                            <p>
+                                More stuff
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p> Icons</p>
+                    <div id=c>
+                        <p>2020. Selma Illig</p>
                     </div>
-                    <div>
-                        <p>
-                            More stuff
-                        </p>
-                    </div>
-                </div>
-                <div id=c>
-                    <p>2020. Selma Illig</p>
                 </div>
             </div>
-        </div>
+        </footer>
+
 
     </body>
 </html>
