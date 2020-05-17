@@ -166,7 +166,31 @@ input[type=message] {
 }
 
 .bg-basic {
-    background: url(assets/background/background_text.svg) no-repeat;
+    background: url(assets/background/background_basic.svg) no-repeat;
+    width: 100%;
+}
+
+.bg-hero {
+    background: url(assets/background/background_hero.svg) no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.bg-reasons {
+    background: url(assets/background/background_reasons.svg) no-repeat;
+    background-position: left;
+    width: 100%;
+}
+
+.bg-about {
+    background: url(assets/background/background_about.svg) no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.bg-contact {
+    background: url(assets/background/background_contact.svg) no-repeat;
+    background-position: right;
     width: 100%;
 }
 
