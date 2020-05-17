@@ -129,6 +129,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 
 .card {
@@ -205,6 +206,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 #hero p {
     padding: 1rem;
@@ -219,6 +221,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 
 #basic p {
@@ -230,6 +233,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 
 #blog p {
@@ -240,6 +244,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 
 
@@ -280,6 +285,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 
 #about h2 {
@@ -330,6 +336,7 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1rem;
 }
 
 #footer {
@@ -379,8 +386,9 @@ input[type=message] {
         width: 100%;
     }
 
-    .cta {
-        padding: 1rem 2rem;
+    #nav2 .cta {
+        background: none;
+        box-shadow: none;
     }
 
     .grid-2 {
