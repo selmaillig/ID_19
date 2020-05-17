@@ -9,9 +9,7 @@
 body {
     background-color: var(--bg-color);
 /* Set view width to 1200px, more margin if screen is larger*/
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 h1 {
@@ -130,6 +128,11 @@ input[type=message] {
 
 #blog {
     margin-bottom: 10rem;
+}
+
+.background-green {
+    background-color:  rgba(42, 157, 143, 0.2);
+    width: 100%;
 }
 
 #product {
