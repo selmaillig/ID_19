@@ -9,7 +9,7 @@
 body {
     background-color: var(--bg-color);
 /* Set view width to 1200px, more margin if screen is larger*/
-    
+    margin: 0;
 }
 
 h1 {
@@ -67,6 +67,12 @@ input[type=message] {
 
 }
 
+#cards {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card {
     background: #F2F2F2;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
@@ -109,6 +115,9 @@ input[type=message] {
 
 #hero {
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #hero p {
     padding: 1rem;
@@ -120,6 +129,9 @@ input[type=message] {
 
 #basic {
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #basic p {
@@ -128,6 +140,15 @@ input[type=message] {
 
 #blog {
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#features {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .background-green {
@@ -136,9 +157,11 @@ input[type=message] {
 }
 
 #product {
-    background-color: rgba(42, 157, 143, 0.2);
     padding: 4rem;
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #product h2 {
@@ -160,10 +183,16 @@ input[type=message] {
     background-color: rgba(42, 157, 143, 0.2);
     padding: 4rem;
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about {
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about h2 {
@@ -174,6 +203,9 @@ input[type=message] {
     background: rgba(244, 162, 97, 0.25);
     padding: 4rem;
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #faq h2 {
@@ -188,11 +220,17 @@ input[type=message] {
 
 #contact {
     margin-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #footer {
     background: rgba(42, 157, 143, 0.6);
     padding: 4rem 4rem 1rem 4rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #c {
