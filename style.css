@@ -141,7 +141,7 @@ input[type=message] {
 }
 
 .panel {
-    background-color:rgba(244, 162, 97, 0.25);
+    background-color: var(--bg-orange);
     display: none;
     overflow: hidden;
 }
@@ -164,20 +164,6 @@ input[type=message] {
     background-color: var(--bg-grey);
     width: 100%;
 
-}
-
-.sticky {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
-
-#nav2 {
-    justify-self: left;
-}
-
-#nav3 {
-    justify-self: right;
 }
 
 #hero {
