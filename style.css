@@ -174,13 +174,12 @@ input[type=message] {
 .bg-hero {
     background: url(assets/background/background_hero.svg) no-repeat;
     background-position: right;
-    width: 100%;
+    max-width: 80%;
 }
 
 .bg-basic {
     background: url(assets/background/background_basic.svg) no-repeat;
-    width: 100%;
-    background-size: contain;
+    max-width: 100%;
 }
 
 
@@ -192,13 +191,13 @@ input[type=message] {
 .bg-about {
     background: url(assets/background/background_about.svg) no-repeat;
     background-position: right;
-    width: 100%;
+    max-width: 80%;
 }
 
 .bg-contact {
     background: url(assets/background/background_contact.svg) no-repeat;
     background-position: right;
-    width: 100%;
+    max-width: 80%;
 }
 
 #hero {
@@ -221,7 +220,6 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
 }
 
 #basic p {
@@ -233,7 +231,6 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
 }
 
 #blog p {
@@ -244,7 +241,6 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
 }
 
 
@@ -285,7 +281,6 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
 }
 
 #about h2 {
@@ -336,7 +331,6 @@ input[type=message] {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
 }
 
 #footer {
@@ -389,6 +383,26 @@ input[type=message] {
     #nav2 .cta {
         background: none;
         box-shadow: none;
+    }
+
+    input {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .people {
+        margin-bottom: 2rem;
+    }
+
+    .illustration {
+        justify-items: right;
+    }
+
+    #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .grid-2 {
