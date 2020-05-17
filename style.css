@@ -163,7 +163,11 @@ input[type=message] {
 .background-grey {
     background-color: var(--bg-grey);
     width: 100%;
+}
 
+.bg-basic {
+    background: url(assets/background/background_text.svg) no-repeat;
+    width: 100%;
 }
 
 #hero {
